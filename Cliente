@@ -1,0 +1,19 @@
+public class Cliente {
+    //Atributos
+    String nome;
+    String email;
+    int telefone;
+
+    // Construtor
+    public Cliente(String nome, String email, int telefone) {
+        this.nome = nome;
+        this.email = email;
+        this.telefone = telefone;
+    }
+
+    //Métodos
+    public void cadastrarCliente(String nome, String email, int telefone) {
+        System.out.println("Cliente cadastrado com sucesso!");
+    }
+
+}
