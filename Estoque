@@ -1,0 +1,19 @@
+public class Estoque {
+    int quantidade;
+    String tipo;
+    String tamanho;
+
+    // Construtor
+    public Estoque (int quantidade, String tipo, String tamanho) {
+        this.quantidade = quantidade;
+        this.tipo = tipo;
+        this.tamanho = tamanho;
+    }
+
+    //Métodos
+    public void informarQuantidadeTipo(int quantidade, String tipo, String tamanho) {
+        System.out.println("Quantidade: " +this.quantidade);
+        System.out.println("Tipo: " +this.tipo);
+    }
+
+}
