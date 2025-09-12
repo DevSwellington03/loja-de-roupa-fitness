@@ -1,0 +1,26 @@
+public class Produto {
+    String tipo;
+    String tamanho;
+    int valor;
+
+    // Construtor
+    public Produto(String tipo, String tamanho, int valor) {
+        this.tipo = tipo;
+        this.tamanho = tamanho;
+        this.valor = valor;
+    }
+
+    //Métodos
+    public void exibirProduto(String tipo) {
+        System.out.println("Tipo: " +this.tipo);
+    }
+
+    public void exibirTamanho(String tamanho) {
+        System.out.println("Tamanho: " +this.tamanho);
+    }
+
+    public void mostrarValor(int valor) {
+        System.out.println("Valor: " +this.valor);
+    }
+
+}
