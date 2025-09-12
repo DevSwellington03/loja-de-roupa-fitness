@@ -1,0 +1,22 @@
+public class Entrega {
+    String nome;
+    String tipo;
+    int quantidade;
+
+    //Construtor
+    public Entrega(String nome, String tipo, int quantidade) {
+        this.nome = nome;
+        this.tipo = tipo;
+        this.quantidade = quantidade;
+    }
+
+    //Métodos
+    public void identificarNome(String nome) {
+        System.out.println("Nome: " +this.nome);
+    }
+    public void informarTipoQuantidade(String tipo, int quantidade) {
+        System.out.println("Tipo: " +this.tipo);
+        System.out.println("Quantidade: " +this.quantidade);
+    }
+
+}
