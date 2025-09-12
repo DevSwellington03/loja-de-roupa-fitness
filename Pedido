@@ -1,0 +1,26 @@
+public class Pedido {
+    String tipo;
+    int quantidade;
+    String tamanho;
+
+    //Construtor
+    public Pedido(String tipo, int quantidade, String tamanho) {
+        this.tipo = tipo;
+        this.quantidade = quantidade;
+        this.tamanho = tamanho;
+    }
+
+    //Métodos
+    public void escolherTipo(String tipo) {
+        System.out.println("Tipo: " +this.tipo);
+    }
+
+    public void escolherQuantidade(int quantidade) {
+        System.out.println("Quantidade: " +this.quantidade);
+    }
+
+    public void informarTamanho(String tamanho) {
+        System.out.println("Tamanho: " +this.tamanho);
+    }
+
+}
